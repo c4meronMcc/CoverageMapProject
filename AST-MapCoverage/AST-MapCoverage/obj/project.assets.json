@@ -2459,11 +2459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cameron.chaplin\\source\\repos\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj",
+      "projectUniqueName": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj",
       "projectName": "AST-MapCoverage",
-      "projectPath": "C:\\Users\\cameron.chaplin\\source\\repos\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj",
+      "projectPath": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj",
       "packagesPath": "C:\\Users\\cameron.chaplin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cameron.chaplin\\source\\repos\\AST-MapCoverage\\AST-MapCoverage\\obj\\",
+      "outputPath": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cameron.chaplin\\AppData\\Roaming\\NuGet\\NuGet.Config",
