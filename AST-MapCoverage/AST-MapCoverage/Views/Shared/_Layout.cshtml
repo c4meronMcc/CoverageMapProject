@@ -8,22 +8,35 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AST_MapCoverage.styles.css" asp-append-version="true" />
 </head>
-<body dawdawd>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AST_MapCoverage</a>
+<body style="background-color:#182335;">
+    <div class="topHeading">
+        <button type="submit" class="contact" href="https://www.theastgroup.com/contact">Contact us</button>
+        <button type="submit" class="Login"  href="'https://www.theastgroup.com/service-desk'">AST Login</button>
+    </div>
+    <header style="background-color: white;">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" id="navbar">
+            <div class="container-fluid" style="margin-left:30%;">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img class="ASTLOGO" src="~/AST logo.png" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="NavOptions navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1" >
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" style="font-weight:bold;" asp-action="Index">Solution & Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" style="font-weight:bold;"  asp-action="Privacy">Sectors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" style="font-weight:bold;"  asp-action="Privacy">Products & Coverage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" style="font-weight:bold;"   asp-action="Privacy">About AST</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" style="font-weight:bold;" asp-action="Privacy">Support</a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
@@ -31,20 +44,298 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="main2">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+    <br />
+    <br />
+ 
+    <footer class="pb-16 py-5 lg:p-8 bg-navy text-white " style=" bottom:0; width:100%; height:fit-content; position:fixed; ">
+        <section class="TopFooter comms-block py-12 bg-cyan" style="bottom:0;">
+            <div class="row">
+                <div class="group1 flex flex-col lg:flex-1 w-full lg:w-auto order-1 lg:order-1 md:px-4 lg:mb-0">
+                    <strong class="hidden lg:block text-32 text-white font-medium leading-none" style=" font-size:35px;">Are you ready to talk?</strong>
+                    <div class=" pt-8">
+                        <div class="BtnGroup md:flex justify-center">
+                            <select class="selection w-full border-gray text-charcoal"><option value="">Select your sector...</option><option value="19">Autonomous Vessels</option><option value="4">Commercial Fishing </option><option value="3">Commercial Shipping</option><option value="12">Consumer &amp; Leisure</option><option value="24">Enterprise</option><option value="10">Government &amp; Security</option><option value="13">Mining</option><option value="15">NGO's &amp; Environmental</option><option value="5">Offshore Energy</option><option value="25">Other</option><option value="6">Polar</option><option value="7">Ports</option><option value="2">Utilities</option><option value="8">Workboats</option><option value="9">Yachts &amp; Leisure Boats</option></select>
+                            <button class="button" onclick="window.location.href='https://www.theastgroup.com/contact?sector='">Contact an expert</button>
+                        </div>
+                    </div>
+                </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - AST_MapCoverage - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                <div class="group2 flex flex-col lg:flex-row w-full lg:w-auto order-2 lg:order-2 md:px-4">
+                    <div class="flex items-center justify-center w-16 h-16 lg:w-14 lg:h-14 mb-4 mx-auto lg:ml-0 lg:mr-auto rounded-full bg-navy bg-opacity-30" style="height:60px; width:60px; background-color:#009999; border-radius:30px; ">
+                        <span class="column2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="white" class="image3 w-8 fill-current transition-all duration-300">
+                                <path d="M24.716 0a1.068 1.068 0 0 0-1.068 1.068v5.733a23.893 23.893 0 0 0-5.554 2.302l-4.055-4.055a1.075 1.075 0 0 0-1.513 0L5.047 12.52a1.07 1.07 0 0 0 0 1.513L9.11 18.09a24.378 24.378 0 0 0-2.295 5.548h-5.74A1.075 1.075 0 0 0 0 24.706v10.582a1.075 1.075 0 0 0 1.075 1.068h5.726a24.379 24.379 0 0 0 2.3 5.562l-4.054 4.055a1.075 1.075 0 0 0 0 1.507l7.472 7.472a1.075 1.075 0 0 0 1.514 0l4.054-4.055a23.895 23.895 0 0 0 5.554 2.302v5.733A1.068 1.068 0 0 0 24.71 60h10.58a1.068 1.068 0 0 0 1.062-1.069V53.2a24.426 24.426 0 0 0 5.575-2.288l4.04 4.041a1.06 1.06 0 0 0 1.507 0l7.472-7.472a1.061 1.061 0 0 0 0-1.507l-4.048-4.055a24.09 24.09 0 0 0 2.308-5.562h5.726a1.075 1.075 0 0 0 1.075-1.068v-10.57a1.075 1.075 0 0 0-1.069-1.075h-5.732a24.377 24.377 0 0 0-2.3-5.562l4.04-4.04a1.062 1.062 0 0 0 0-1.515l-7.472-7.479a1.06 1.06 0 0 0-1.507 0l-4.06 4.062a24.038 24.038 0 0 0-5.556-2.31V1.068A1.068 1.068 0 0 0 35.291 0H24.716Zm1.069 2.137h8.43V7.5a1.075 1.075 0 0 0 .829 1.041 21.796 21.796 0 0 1 6.56 2.74 1.075 1.075 0 0 0 1.323-.15l3.794-3.795 5.958 5.958-3.78 3.781a1.069 1.069 0 0 0-.158 1.281 22.006 22.006 0 0 1 2.74 6.582 1.069 1.069 0 0 0 1.04.822h5.363v8.425H52.5a1.076 1.076 0 0 0-1.041.835 22.162 22.162 0 0 1-2.74 6.562 1.069 1.069 0 0 0 .158 1.322l3.8 3.795-5.971 5.959-3.773-3.754a1.076 1.076 0 0 0-1.288-.164 21.995 21.995 0 0 1-6.568 2.74 1.075 1.075 0 0 0-.829 1.04v5.37h-8.464V52.5a1.076 1.076 0 0 0-.822-1.041 21.875 21.875 0 0 1-6.575-2.74 1.075 1.075 0 0 0-1.315.158L13.28 52.67l-5.965-5.959 3.794-3.787a1.075 1.075 0 0 0 .151-1.281 21.986 21.986 0 0 1-2.74-6.569 1.069 1.069 0 0 0-1.04-.835H2.144v-8.452h5.362a1.075 1.075 0 0 0 1.034-.822 22.058 22.058 0 0 1 2.74-6.576 1.075 1.075 0 0 0-.151-1.322L7.335 13.28l5.958-5.96 3.787 3.789a1.069 1.069 0 0 0 1.315.15 22.132 22.132 0 0 1 6.582-2.74 1.069 1.069 0 0 0 .821-1.04l-.013-5.343Zm4.218 15.26a6.724 6.724 0 0 0-6.413 8.813 6.725 6.725 0 0 0 2.455 3.365 9.78 9.78 0 0 0-5.814 8.905v3.027a1.068 1.068 0 0 0 1.068 1.068H38.7a1.067 1.067 0 0 0 1.075-1.061v-3.007a9.782 9.782 0 0 0-5.814-8.904 6.726 6.726 0 0 0-3.959-12.206Zm0 2.137a4.603 4.603 0 1 1-4.595 4.603 4.582 4.582 0 0 1 4.595-4.603Zm0 11.336a7.595 7.595 0 0 1 7.63 7.637v1.959H22.374v-1.96a7.597 7.597 0 0 1 7.63-7.636Z"></path>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="text-center lg:text-left" style="color:white;">Dedicated account manager</div>
+                    <div class="flex items-center justify-center w-16 h-16 lg:w-14 lg:h-14 mb-4 mx-auto lg:ml-0 lg:mr-auto rounded-full bg-navy bg-opacity-30" style="height:60px; width:60px; background-color:#009999; border-radius:30px;">
+                        <span class="column2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="white" class="image3 w-8 fill-current transition-all duration-300">
+                                <path d="M15 53.4375C12.7463 53.4375 10.6275 52.5599 9.03376 50.9662C5.74396 47.6764 5.74396 42.3236 9.03376 39.0339L9.09071 38.9814L25.9209 24.7262C25.517 23.4006 25.3125 22.024 25.3125 20.625C25.3125 12.8709 31.6209 6.5625 39.375 6.5625C40.607 6.5625 41.832 6.72305 43.0159 7.03957L44.5856 7.45934L40.2872 11.7577C39.2248 12.8202 38.6397 14.2328 38.6397 15.7352C38.6397 17.2377 39.2248 18.6503 40.2872 19.7126C41.3496 20.775 42.7621 21.3602 44.2645 21.3602C45.7671 21.3602 47.1796 20.7751 48.2421 19.7127L52.5406 15.4141L52.9603 16.9837C53.277 18.1678 53.4375 19.3929 53.4375 20.625C53.4375 28.3791 47.1291 34.6875 39.375 34.6875C37.976 34.6875 36.5994 34.483 35.2738 34.0789L20.9937 50.9388L20.9663 50.9662C19.3725 52.5599 17.2538 53.4375 15 53.4375ZM10.3331 40.3862C7.80106 42.9471 7.80974 47.0905 10.3596 49.6404C11.5991 50.8799 13.2471 51.5625 15 51.5625C16.7405 51.5625 18.3774 50.8896 19.6138 49.6669L34.671 31.8896L35.2819 32.1074C36.5941 32.5753 37.9712 32.8125 39.375 32.8125C46.0952 32.8125 51.5625 27.3452 51.5625 20.625C51.5625 20.1258 51.5322 19.628 51.4718 19.1346L49.5679 21.0386C48.1513 22.4551 46.2679 23.2354 44.2645 23.2354C42.2612 23.2354 40.3778 22.4552 38.9613 21.0386C37.5448 19.622 36.7647 17.7386 36.7647 15.7354C36.7647 13.732 37.5448 11.8486 38.9615 10.4319L40.8652 8.5282C40.3718 8.46785 39.8741 8.4375 39.375 8.4375C32.6548 8.4375 27.1875 13.9048 27.1875 20.625C27.1875 22.0288 27.4247 23.4059 27.8926 24.7181L28.1104 25.329L10.3331 40.3862Z"></path>
+                                <path d="M15 43.125C16.0338 43.125 16.875 43.9662 16.875 45C16.875 46.0338 16.0338 46.875 15 46.875C13.9662 46.875 13.125 46.0338 13.125 45C13.125 43.9662 13.9662 43.125 15 43.125ZM15 41.25C12.9289 41.25 11.25 42.9289 11.25 45C11.25 47.0711 12.9289 48.75 15 48.75C17.0711 48.75 18.75 47.0711 18.75 45C18.75 42.9289 17.0711 41.25 15 41.25Z"></path>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="text-center lg:text-left" style="color:white;">24 / 7 support</div>
+                    <div class="flex items-center justify-center w-16 h-16 lg:w-14 lg:h-14 mb-4 mx-auto lg:ml-0 lg:mr-auto rounded-full bg-navy bg-opacity-30" style="height:60px; width:60px; background-color:#009999; border-radius:30px;">
+                        <span class="column2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="white" style="" class="image3 w-8 fill-current transition-all duration-300">
+                                <path d="M57.42 35.94C57.06 34.8 56.28 33.84 55.2 33.24C52.32 31.74 50.04 33.96 49.26 34.74C49.26 34.74 49.26 34.74 49.2 34.8L43.8 40.62C43.56 38.4 41.64 36.66 39.3 36.66H34.32C32.04 33.72 28.68 32.4 26.46 32.4C21.6 32.4 17.46 34.2 14.22 37.74H12V36.6C12 35.94 11.46 35.4 10.8 35.4H3.59999C2.93999 35.4 2.39999 35.94 2.39999 36.6V55.2C2.39999 55.86 2.93999 56.4 3.59999 56.4H10.8C11.46 56.4 12 55.86 12 55.2V54H40.86C44.16 54 47.22 52.5 49.14 49.92L57 39.36C57 39.3 57.06 39.3 57.06 39.24C57.6 38.22 57.78 37.02 57.42 35.94ZM9.59999 54H4.79999V37.8H9.59999V54ZM54.96 37.98L47.16 48.48C45.72 50.4 43.32 51.6 40.86 51.6H12V40.14H14.7C14.76 40.14 14.88 40.14 14.94 40.14C14.94 40.14 14.94 40.14 15 40.14C15.06 40.14 15.12 40.08 15.18 40.08C15.18 40.08 15.24 40.08 15.24 40.02C15.3 40.02 15.36 39.96 15.36 39.96L15.42 39.9C15.48 39.9 15.48 39.84 15.54 39.78C15.54 39.78 15.54 39.78 15.6 39.78C15.84 39.48 16.14 39.18 16.44 38.88C19.14 36.18 22.44 34.86 26.46 34.86C27.84 34.86 30.36 35.7 32.28 37.98C32.46 38.16 32.58 38.34 32.76 38.58L32.82 38.64C32.82 38.7 32.88 38.7 32.88 38.76C32.88 38.82 32.94 38.82 33 38.82C33.06 38.82 33.06 38.88 33.06 38.88C33.12 38.88 33.12 38.94 33.18 38.94C33.18 38.94 33.24 39 33.3 39C33.36 39 33.36 39 33.42 39.06C33.48 39.06 33.48 39.06 33.54 39.12C33.6 39.12 33.6 39.12 33.66 39.12H33.72H39.3C40.5 39.12 41.46 40.02 41.46 41.1C41.46 42.18 40.5 43.08 39.3 43.08H25.32C24.66 43.08 24.12 43.62 24.12 44.28C24.12 44.94 24.66 45.48 25.32 45.48H40.02C41.64 45.48 43.26 44.76 44.34 43.56L50.94 36.42C52.62 34.8 53.46 35.04 54.06 35.34C54.54 35.58 54.96 36.06 55.08 36.54C55.26 37.08 55.2 37.56 54.96 37.98ZM31.08 21.3L29.64 29.82C29.58 30.3 29.76 30.72 30.12 31.02C30.48 31.32 30.96 31.32 31.38 31.08L39 27.06L46.62 31.08C46.8 31.2 46.98 31.2 47.16 31.2C47.4 31.2 47.64 31.14 47.88 30.96C48.24 30.66 48.42 30.24 48.36 29.76L46.92 21.24L53.1 15.24C53.4 14.94 53.52 14.46 53.4 14.04C53.28 13.62 52.86 13.32 52.44 13.2L43.92 12L40.08 4.25998C39.9 3.83998 39.48 3.59998 39 3.59998C38.52 3.59998 38.1 3.83998 37.92 4.25998L34.08 12L25.56 13.26C25.08 13.32 24.72 13.62 24.6 14.1C24.48 14.52 24.6 15 24.9 15.3L31.08 21.3ZM35.1 14.28C35.52 14.22 35.82 13.98 36 13.62L39 7.49998L42 13.62C42.18 13.98 42.48 14.22 42.9 14.28L49.62 15.24L44.76 19.98C44.46 20.28 44.34 20.64 44.4 21.06L45.6 27.78L39.54 24.6C39.36 24.48 39.18 24.48 39 24.48C38.82 24.48 38.64 24.54 38.46 24.6L32.4 27.78L33.54 21.06C33.6 20.64 33.48 20.28 33.18 19.98L28.32 15.24L35.1 14.28Z"></path>
+                            </svg>
+                        </span>
+                    </div><div class="text-center lg:text-left" style="color:white;">Custom solutions</div>
+                </div>
+            </div>
+        </section>
+        <div style="margin-left:auto; margin-right:auto; padding-top:1%;">
+            <div class="w-52">
+                <span class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210.425 60.525" class=" w-full fill-current transition-all duration-300" style="height:50px; margin-left:19%;">
+                        <g>
+                            <path d="M2.183 27.804q-.9 1.147-1.674 2.264a28.5 28.5 0 0 1 5.087-14.345q-.973 2.53-1.784 5.255a67.655 67.655 0 0 0-1.629 6.826Zm-1.39 8.735c.045-.122.092-.243.139-.375.159-.446.287-.749.287-.749v.01l.074-.18c.083-1.648.252-3.347.5-5.082q-.73 1.025-1.358 2.014a28.507 28.507 0 0 0 .359 4.379s0-.006-.001-.017Zm2.835-10.495a74.426 74.426 0 0 1 8.661-8.5c.078-.1.156-.193.236-.289A75.869 75.869 0 0 1 26.787 3.673a28.667 28.667 0 0 0-4.722.753 28.291 28.291 0 0 0-14.016 8.256 63.9 63.9 0 0 0-3.208 8.6c-.47 1.6-.872 3.188-1.213 4.763Zm-1.029 6.278A71.109 71.109 0 0 1 8.66 22.286a64.776 64.776 0 0 0-5.488 6.055 59.906 59.906 0 0 0-.573 3.981Zm33.106 27.369a28.468 28.468 0 0 1-29.45-10.37 5.43 5.43 0 0 1-4.58-.851c-2.255-1.874-2.235-6.129.058-11.979a70.784 70.784 0 0 1 11.109-18q.864-.73 1.761-1.449c7.163-5.717 14.657-9.841 20.557-11.3a17.616 17.616 0 0 1 3.171-.507c.35.122.7.255 1.045.393a18.051 18.051 0 0 1 2.279 1.013c.243-2.264-.162-3.935-1.216-4.814-.957-.794-2.419-.96-4.345-.487a20.6 20.6 0 0 0-5.368 2.337 28.286 28.286 0 0 1 5.128.807c-.31.062-.625.131-.948.212-5.292 1.305-11.8 4.677-18.228 9.4a80.968 80.968 0 0 1 5.2-5.109 55 55 0 0 1 6.916-5.379h.017A24.063 24.063 0 0 1 35.84.296c2.273-.552 4.051-.314 5.284.71 1.415 1.176 1.928 3.3 1.55 6.152a22.327 22.327 0 0 1 2.143 1.333h.007l.462.322c-.858.251-1.747.538-2.655.851-.581.224-4.838 1.862-6.419 2.554a114.611 114.611 0 0 0-15.122 8.243 107.3 107.3 0 0 0-17.083 13.5c-.457.958-.873 1.9-1.233 2.814a99.429 99.429 0 0 1 18.9-15.408c8.621-5.561 17.656-9.819 24.725-11.726a28.451 28.451 0 0 1-10.694 50.051ZM5.539 48.341a28.287 28.287 0 0 1-3.911-8.1c-.931 3.587-.695 6.212.73 7.4a4.126 4.126 0 0 0 3.184.695Zm25.151-1.539-4.985-13.734h-2.233a1.338 1.338 0 0 0-1.356.917L17.566 46.8h2.993l.878-2.833h5.352l.918 2.833Zm11.3-4.15a3.905 3.905 0 0 0-.439-1.836 3.455 3.455 0 0 0-1.235-1.24l-1.118-.479-.858-.219q-.538-.14-1.258-.38a6.871 6.871 0 0 1-1-.243q-2.311-.518-2.311-1.6a1.446 1.446 0 0 1 .6-1.237 2.659 2.659 0 0 1 1.716-.439 3.285 3.285 0 0 1 1.956.518 1.988 1.988 0 0 1 .558.679 1.36 1.36 0 0 0 1.317.838h1.6a4.428 4.428 0 0 0-1.437-3.232 5.628 5.628 0 0 0-3.751-1.118 6.239 6.239 0 0 0-3.951 1.078 4.249 4.249 0 0 0-.958 4.908 2.385 2.385 0 0 0 1.118 1.277 8.357 8.357 0 0 0 2.714.918l.319.079.08.04q3.592.8 3.592 2.075a1.455 1.455 0 0 1-.639 1.277 3.315 3.315 0 0 1-1.876.439 3.748 3.748 0 0 1-2.19-.558 2.2 2.2 0 0 1-.918-1.677h-2.8a4.418 4.418 0 0 0 1.6 3.433 6.14 6.14 0 0 0 4.07 1.157 6.5 6.5 0 0 0 4.071-1.117 4.115 4.115 0 0 0 1.434-3.349Zm10.985-9.584h-9.5a1.43 1.43 0 0 0-1.437 1.436v1h4.07v11.294h2.833V35.5h4.031Zm-30.78 8.582h3.832l-1.916-5.827Z" fill="#fff"></path>
+                            <path d="M70.565 30.423V20.418h6.855v1.875h-4.425v2.175h3.84v1.89h-3.84v2.19h4.425v1.875Zm8.82-6.945a5.3 5.3 0 0 1 .75-.307 9.336 9.336 0 0 1 1.02-.277q.555-.12 1.118-.2a7.924 7.924 0 0 1 1.042-.071 5.1 5.1 0 0 1 1.74.262 2.152 2.152 0 0 1 1.1.847 2.877 2.877 0 0 1 .385 1.591v5.1h-2.235v-4.65a1.606 1.606 0 0 0-.083-.525 1.11 1.11 0 0 0-.247-.412 1.1 1.1 0 0 0-.45-.27 2.145 2.145 0 0 0-.69-.1 2.958 2.958 0 0 0-.69.083 2.561 2.561 0 0 0-.525.173v5.701h-2.235Zm12.06 7.17a6.31 6.31 0 0 1-1.297-.125 3.165 3.165 0 0 1-1.065-.42 2 2 0 0 1-.712-.8 2.752 2.752 0 0 1-.255-1.253 2.487 2.487 0 0 1 .292-1.23 1.936 1.936 0 0 1 .892-.81 3.531 3.531 0 0 1 1.515-.285 4.62 4.62 0 0 1 .99.1 4.059 4.059 0 0 1 .862.285 2.36 2.36 0 0 1 .608.39l.09 1.08a2.639 2.639 0 0 0-.72-.285 3.7 3.7 0 0 0-.9-.105 2.037 2.037 0 0 0-1.073.218.753.753 0 0 0-.337.682.841.841 0 0 0 .165.51 1.054 1.054 0 0 0 .443.345 1.44 1.44 0 0 0 .577.12 3.749 3.749 0 0 0 1.073-.105.411.411 0 0 0 .308-.42v-2.79a1.128 1.128 0 0 0-.443-1 2.177 2.177 0 0 0-1.252-.308 4.015 4.015 0 0 0-1.328.233 3.748 3.748 0 0 0-1.087.562v-1.98a4.6 4.6 0 0 1 1.208-.45 7.4 7.4 0 0 1 1.837-.21 5.858 5.858 0 0 1 .8.06 4.262 4.262 0 0 1 .87.218 2.733 2.733 0 0 1 .8.457 2.216 2.216 0 0 1 .592.765 2.642 2.642 0 0 1 .222 1.166l-.02 3.585a1.346 1.346 0 0 1-.43 1.042 2.682 2.682 0 0 1-1.253.578 9.31 9.31 0 0 1-1.972.18Zm9.135 0a9.523 9.523 0 0 1-1.252-.083 4.216 4.216 0 0 1-1.125-.3 2.011 2.011 0 0 1-.8-.6 1.57 1.57 0 0 1-.3-1v-8.642h2.19v4.14l-.42-.7a1.926 1.926 0 0 1 .69-.5 3.586 3.586 0 0 1 .855-.262 4.392 4.392 0 0 1 .72-.075 3.2 3.2 0 0 1 2.558 1.012 4.4 4.4 0 0 1 .877 2.963 5.375 5.375 0 0 1-.3 1.92 3.048 3.048 0 0 1-.843 1.242 3.336 3.336 0 0 1-1.26.675 5.665 5.665 0 0 1-1.59.21Zm-.03-1.86a1.855 1.855 0 0 0 1.05-.265 1.465 1.465 0 0 0 .563-.728 3.05 3.05 0 0 0 .173-1.065 3.435 3.435 0 0 0-.225-1.365 1.518 1.518 0 0 0-.611-.732 1.768 1.768 0 0 0-.9-.225 3.256 3.256 0 0 0-.66.075 2.155 2.155 0 0 0-.645.24v3.36a.539.539 0 0 0 .165.42 1 1 0 0 0 .458.218 2.834 2.834 0 0 0 .632.067Zm7.785 1.635h-2.22V19.968h2.22Zm2.025 0v-7.485h2.24l.01 7.485Zm-.045-8.625v-1.725h2.31v1.725Zm4.29 1.68a5.3 5.3 0 0 1 .75-.307 9.336 9.336 0 0 1 1.02-.277q.555-.12 1.118-.2a7.924 7.924 0 0 1 1.042-.071 5.1 5.1 0 0 1 1.74.262 2.152 2.152 0 0 1 1.1.847 2.877 2.877 0 0 1 .385 1.591v5.1h-2.235v-4.65a1.606 1.606 0 0 0-.083-.525 1.11 1.11 0 0 0-.248-.412 1.1 1.1 0 0 0-.45-.27 2.145 2.145 0 0 0-.69-.1 2.958 2.958 0 0 0-.69.083 2.561 2.561 0 0 0-.525.173v5.701h-2.234Zm12.045 7.17a4.042 4.042 0 0 1-1.778-.48 2.859 2.859 0 0 1-1.155-1.238 4.562 4.562 0 0 1-.412-2.062 5.969 5.969 0 0 1 .315-2.092 3.029 3.029 0 0 1 .88-1.298 3.347 3.347 0 0 1 1.357-.66 7.437 7.437 0 0 1 1.77-.195 5.125 5.125 0 0 1 1.65.24 2.458 2.458 0 0 1 1.095.69 1.635 1.635 0 0 1 .39 1.11v5.85a3.6 3.6 0 0 1-.255 1.4 2.6 2.6 0 0 1-.757 1.02 3.407 3.407 0 0 1-1.215.622 5.823 5.823 0 0 1-1.643.21 8.9 8.9 0 0 1-1.719-.142 3.838 3.838 0 0 1-1.088-.352v-1.963q.225.09.66.24a6.591 6.591 0 0 0 .975.247 6.067 6.067 0 0 0 1.08.1 2.444 2.444 0 0 0 1.088-.195 1.108 1.108 0 0 0 .532-.527 1.794 1.794 0 0 0 .15-.75v-1.23l.435.315a2.707 2.707 0 0 1-.57.6 2.508 2.508 0 0 1-.773.4 3.3 3.3 0 0 1-1.012.14Zm.57-1.68a2.965 2.965 0 0 0 .72-.082 2.621 2.621 0 0 0 .63-.248v-3.48a.619.619 0 0 0-.18-.48.959.959 0 0 0-.45-.225 2.622 2.622 0 0 0-.57-.06 1.767 1.767 0 0 0-1.087.3 1.644 1.644 0 0 0-.57.832 3.911 3.911 0 0 0-.173 1.208 2.6 2.6 0 0 0 .465 1.635 1.465 1.465 0 0 0 1.215.6Zm-52.2 17.665a5.923 5.923 0 0 1-2.572-.525 3.714 3.714 0 0 1-1.71-1.673 6.428 6.428 0 0 1-.608-3.007 6.4 6.4 0 0 1 .608-2.985 3.83 3.83 0 0 1 1.71-1.7 5.716 5.716 0 0 1 2.572-.55 8.688 8.688 0 0 1 1.845.195 9.888 9.888 0 0 1 1.725.54v2.2a14.963 14.963 0 0 0-1.673-.75 4.58 4.58 0 0 0-1.6-.285 3.275 3.275 0 0 0-1.463.3 1.954 1.954 0 0 0-.919 1.03 5.111 5.111 0 0 0-.315 1.99 4.957 4.957 0 0 0 .322 1.972 2.091 2.091 0 0 0 .908 1.043 2.836 2.836 0 0 0 1.365.315 5.149 5.149 0 0 0 .757-.052 2.065 2.065 0 0 0 .622-.187v-1.771h-1.649v-1.89h4.08v4.71a9.227 9.227 0 0 1-1.942.8 7.577 7.577 0 0 1-2.063.28Zm8.28-.21h-2.22V35.968h2.22Zm5.4.225a3.782 3.782 0 0 1-2.887-1.025 4.255 4.255 0 0 1-.967-3.023 4.116 4.116 0 0 1 .982-3.083 4.007 4.007 0 0 1 2.872-.939 4.788 4.788 0 0 1 2.137.428 2.838 2.838 0 0 1 1.305 1.317 5.1 5.1 0 0 1 .442 2.28 4.154 4.154 0 0 1-1 3.023 3.847 3.847 0 0 1-2.884 1.022Zm0-1.785a1.547 1.547 0 0 0 .922-.262 1.591 1.591 0 0 0 .555-.765 3.562 3.562 0 0 0 .188-1.238 3.8 3.8 0 0 0-.187-1.328 1.327 1.327 0 0 0-.562-.7 1.8 1.8 0 0 0-.915-.217 1.731 1.731 0 0 0-.93.225 1.322 1.322 0 0 0-.533.713 4.046 4.046 0 0 0-.172 1.313 2.962 2.962 0 0 0 .4 1.7 1.411 1.411 0 0 0 1.234.559Zm8.91 1.785a9.523 9.523 0 0 1-1.253-.083 4.216 4.216 0 0 1-1.125-.3 2.011 2.011 0 0 1-.8-.6 1.57 1.57 0 0 1-.3-1v-8.642h2.19v4.14l-.42-.7a1.926 1.926 0 0 1 .69-.5 3.586 3.586 0 0 1 .855-.263 4.392 4.392 0 0 1 .72-.075 3.2 3.2 0 0 1 2.558 1.012 4.4 4.4 0 0 1 .877 2.963 5.375 5.375 0 0 1-.3 1.92 3.048 3.048 0 0 1-.84 1.245 3.336 3.336 0 0 1-1.26.675 5.665 5.665 0 0 1-1.592.208Zm-.03-1.86a1.855 1.855 0 0 0 1.05-.262 1.466 1.466 0 0 0 .563-.727 3.05 3.05 0 0 0 .173-1.065 3.435 3.435 0 0 0-.225-1.365 1.518 1.518 0 0 0-.615-.735 1.769 1.769 0 0 0-.9-.225 3.256 3.256 0 0 0-.66.075 2.155 2.155 0 0 0-.645.24v3.36a.539.539 0 0 0 .165.42 1 1 0 0 0 .458.217 2.834 2.834 0 0 0 .636.067Zm8.49 1.86a6.31 6.31 0 0 1-1.3-.128 3.165 3.165 0 0 1-1.065-.42 2 2 0 0 1-.713-.8 2.752 2.752 0 0 1-.255-1.252 2.487 2.487 0 0 1 .292-1.23 1.936 1.936 0 0 1 .893-.81 3.531 3.531 0 0 1 1.515-.285 4.62 4.62 0 0 1 .99.1 4.059 4.059 0 0 1 .862.285 2.36 2.36 0 0 1 .607.39l.09 1.08a2.639 2.639 0 0 0-.72-.285 3.7 3.7 0 0 0-.9-.105 2.036 2.036 0 0 0-1.072.218.753.753 0 0 0-.338.682.841.841 0 0 0 .165.51 1.054 1.054 0 0 0 .442.345 1.44 1.44 0 0 0 .578.12 3.749 3.749 0 0 0 1.072-.1.411.411 0 0 0 .307-.42v-2.79a1.128 1.128 0 0 0-.442-1 2.177 2.177 0 0 0-1.253-.307 4.015 4.015 0 0 0-1.325.24 3.748 3.748 0 0 0-1.088.562v-1.98a4.6 4.6 0 0 1 1.208-.45 7.4 7.4 0 0 1 1.838-.21 5.857 5.857 0 0 1 .795.06 4.262 4.262 0 0 1 .87.217 2.733 2.733 0 0 1 .8.458 2.216 2.216 0 0 1 .592.765 2.642 2.642 0 0 1 .225 1.155l-.015 3.585a1.346 1.346 0 0 1-.435 1.042 2.682 2.682 0 0 1-1.252.578 9.31 9.31 0 0 1-1.968.18Zm7.875-.225h-2.22V35.968h2.22Zm10.62.195a4.966 4.966 0 0 1-3.665-1.268 5.347 5.347 0 0 1-1.267-3.922 5.6 5.6 0 0 1 1.212-3.905 4.8 4.8 0 0 1 3.72-1.327 6.839 6.839 0 0 1 1.6.195 8.877 8.877 0 0 1 1.575.54v2.112a6.09 6.09 0 0 0-1.5-.735 4.538 4.538 0 0 0-1.34-.225 3.214 3.214 0 0 0-1.493.315 2.058 2.058 0 0 0-.93 1.05 5.014 5.014 0 0 0-.322 1.98 4.9 4.9 0 0 0 .322 1.965 1.994 1.994 0 0 0 .955 1.03 3.59 3.59 0 0 0 1.568.307 4.471 4.471 0 0 0 1.26-.21 5.75 5.75 0 0 0 1.485-.72v2.113a5.826 5.826 0 0 1-.953.368 8.553 8.553 0 0 1-1.11.247 7.257 7.257 0 0 1-1.117.09Zm8.37.03a3.782 3.782 0 0 1-2.887-1.025 4.255 4.255 0 0 1-.967-3.023 4.116 4.116 0 0 1 .982-3.083 4.007 4.007 0 0 1 2.873-.937 4.788 4.788 0 0 1 2.138.428 2.838 2.838 0 0 1 1.304 1.315 5.1 5.1 0 0 1 .442 2.28 4.154 4.154 0 0 1-1 3.023 3.847 3.847 0 0 1-2.885 1.022Zm0-1.785a1.547 1.547 0 0 0 .922-.262 1.591 1.591 0 0 0 .555-.765 3.562 3.562 0 0 0 .188-1.238 3.8 3.8 0 0 0-.187-1.328 1.327 1.327 0 0 0-.562-.7 1.8 1.8 0 0 0-.915-.217 1.731 1.731 0 0 0-.93.225 1.322 1.322 0 0 0-.533.713 4.046 4.046 0 0 0-.172 1.313 2.962 2.962 0 0 0 .4 1.7 1.411 1.411 0 0 0 1.234.559Zm5.43-5.385a5.305 5.305 0 0 1 .75-.308 9.337 9.337 0 0 1 1.02-.277q.555-.12 1.118-.2a7.924 7.924 0 0 1 1.042-.07 5.1 5.1 0 0 1 1.74.262 2.152 2.152 0 0 1 1.1.847 2.877 2.877 0 0 1 .382 1.59v5.101h-2.232v-4.65a1.606 1.606 0 0 0-.083-.525 1.037 1.037 0 0 0-.7-.682 2.145 2.145 0 0 0-.69-.1 2.958 2.958 0 0 0-.69.083 2.561 2.561 0 0 0-.525.172v5.702h-2.232Zm9.135 0a5.305 5.305 0 0 1 .75-.308 9.337 9.337 0 0 1 1.02-.277q.555-.12 1.118-.2a7.924 7.924 0 0 1 1.042-.07 5.1 5.1 0 0 1 1.74.262 2.152 2.152 0 0 1 1.1.847 2.877 2.877 0 0 1 .382 1.59v5.101h-2.232v-4.65a1.606 1.606 0 0 0-.082-.525 1.037 1.037 0 0 0-.7-.682 2.145 2.145 0 0 0-.69-.1 2.958 2.958 0 0 0-.69.083 2.561 2.561 0 0 0-.525.172v5.702H147.5Zm12.57 7.17a4.189 4.189 0 0 1-2.018-.473 3.348 3.348 0 0 1-1.365-1.35 4.245 4.245 0 0 1-.487-2.092 4.416 4.416 0 0 1 .982-3.067 3.6 3.6 0 0 1 2.813-1.088 3.478 3.478 0 0 1 2.033.54 3.089 3.089 0 0 1 1.132 1.575 7.487 7.487 0 0 1 .34 2.52h-5.77l-.24-1.425h4.17l-.33.7a3.318 3.318 0 0 0-.345-1.71 1.2 1.2 0 0 0-1.08-.5 1.4 1.4 0 0 0-.757.21 1.358 1.358 0 0 0-.525.7 3.854 3.854 0 0 0-.187 1.342 2.433 2.433 0 0 0 .518 1.665 2.107 2.107 0 0 0 1.658.585 3.607 3.607 0 0 0 .832-.1 6.378 6.378 0 0 0 .772-.233q.36-.135.615-.24v1.92a6.868 6.868 0 0 1-1.207.368 7.5 7.5 0 0 1-1.554.153Zm8.55-.03a4.807 4.807 0 0 1-1.53-.24 3.731 3.731 0 0 1-1.275-.72 3.291 3.291 0 0 1-.87-1.215 4.312 4.312 0 0 1-.315-1.71 4.979 4.979 0 0 1 .3-1.807 3.5 3.5 0 0 1 .832-1.283 3.454 3.454 0 0 1 1.253-.765 4.735 4.735 0 0 1 1.585-.255 6.6 6.6 0 0 1 1.268.127 5.171 5.171 0 0 1 1.147.353v1.92a8.822 8.822 0 0 0-1.027-.4 3.416 3.416 0 0 0-1.028-.157 2.329 2.329 0 0 0-1.522.472 1.876 1.876 0 0 0-.577 1.538 2.471 2.471 0 0 0 .51 1.695 2.179 2.179 0 0 0 1.695.57 3.017 3.017 0 0 0 1.072-.195 6.6 6.6 0 0 0 .893-.4v1.9a5.382 5.382 0 0 1-1.1.42 5.212 5.212 0 0 1-1.311.152Zm7.08.1a2.734 2.734 0 0 1-1.965-.622 2.335 2.335 0 0 1-.645-1.762v-3.791h-1.11v-1.71h1.11v-2.085h2.34v2.085h1.67v1.71h-1.67v3.51a.856.856 0 0 0 .165.578.708.708 0 0 0 .555.188 1.779 1.779 0 0 0 .945-.315v1.919a2.393 2.393 0 0 1-.682.233 3.942 3.942 0 0 1-.713.067Zm3.135-.3v-7.48h2.235l.015 7.485Zm-.045-8.625v-1.72h2.31v1.725Zm6.825 8.63-3.165-7.59h2.43l2.295 5.85-.54.015 2.04-5.865h2.355l-3.165 7.59Zm6.825 0v-7.485h2.235l.015 7.485Zm-.045-8.625v-1.725h2.31v1.725Zm7.395 8.925a2.734 2.734 0 0 1-1.965-.622 2.335 2.335 0 0 1-.645-1.762v-3.796h-1.11v-1.71h1.11v-2.085h2.34v2.085h1.665v1.71h-1.665v3.51a.856.856 0 0 0 .165.578.708.708 0 0 0 .555.188 1.779 1.779 0 0 0 .945-.315v1.919a2.393 2.393 0 0 1-.682.233 3.942 3.942 0 0 1-.713.067Zm4.74 2.64a3.594 3.594 0 0 1-.735-.075 2.785 2.785 0 0 1-.615-.195v-1.815a2.584 2.584 0 0 0 .45.128 2.47 2.47 0 0 0 .435.038 1.211 1.211 0 0 0 .652-.173 1.247 1.247 0 0 0 .458-.585 4.546 4.546 0 0 0 .285-1.118l.045 1.275-3.255-8.01h2.565l1.725 5.325h-.225l1.71-5.325h2.4l-2.985 7.71a6.72 6.72 0 0 1-.878 1.665 3.124 3.124 0 0 1-.982.885 2.218 2.218 0 0 1-1.05.27Z" fill="#00a9b9"></path>
+                        </g>
+                    </svg>
+                </span>
+            </div>
+            <div class="flex flex-col order-3 lg:flex-row mb-10" style="display:flex; margin-left:17%;">
+                <div class="flex flex-wrap lg:flex-nowrap w-full lg:w-7/12 pt-5" style="display:flex;">
+                    <nav class="flex order-1 lg:order-1 w-full lg:1/3 my-9 lg:my-0 text-14" style="display:flex;">
+                        <ul class="flex flex-wrap lg:flex-nowrap lg:flex-col w-full">
+                            <li style="list-style-type: none;" class=" block w-1/2 lg:w-full mb-3"><a class="links hover:text-gray transition-all duration-300" href="/products">Featured products</a></li>
+                            <li style="list-style-type: none;" class=" block w-1/2 lg:w-full mb-3"><a class="links hover:text-gray transition-all duration-300" href="/privacy-policy">Privacy policy</a></li>
+                            <li style="list-style-type: none;" class=" block w-1/2 lg:w-full mb-3"><a class="links hover:text-gray transition-all duration-300" href="/terms-and-conditions">Terms &amp; conditions</a></li>
+                            <li style="list-style-type: none;" class=" block w-1/2 lg:w-full mb-3"><a target="_blank" rel="nofollow" class="links hover:text-gray transition-all duration-300" href="https://theastgroup-production.fra1.cdn.digitaloceanspaces.com/3c46406bef5e15a6533e8f927e3e40ac.pdf?updated_at=2022-12-21T13:54:47.891Z">Modern Slavery Policy</a></li>
+                            <li style="list-style-type: none;" class="block w-1/2 lg:w-full mb-3"><a class="links hover:text-gray transition-all duration-300" href="https://theastgroup-production.fra1.cdn.digitaloceanspaces.com/ba017a48887b1c55d43e4a52163d00b4.pdf?updated_at=2023-03-27T09:16:33.943Z">Carbon Reduction Plan</a></li>
+                        </ul>
+                    </nav>
+                    <div class="flex order-2 lg:order-2 justify-end lg:justify-start w-1/2 lg:1/3 pl-2 lg:pl-0 text-14" style="display:flex; margin-left:200px;">
+                        <ul>
+                            <li style="list-style-type: none;" class="block mb-3">
+                                <a class="flex group" target="_blank" rel="nofollow" href="https://www.linkedin.com/company/applied-satellite-technology-ltd/">
+                                    <div class="pr-5 text-primary group-hover:text-white">
+                                        <div class="w-4">
+                                            <span class="">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="cyan" class="w-[20px] fill-current transition-all duration-300" style="height:20px;">
+                                                    <path d="M13.333 6.667a5 5 0 0 1 5 5V17.5H15v-5.833a1.667 1.667 0 0 0-3.333 0V17.5H8.333v-5.833a5 5 0 0 1 5-5ZM5 7.5H1.667v10H5v-10ZM3.333 5a1.667 1.667 0 1 0 0-3.333 1.667 1.667 0 0 0 0 3.333Z"></path>
+                                                </svg>
+                                            </span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style="list-style-type: none;" class="block mb-3">
+                                <a class="flex group" target="_blank" rel="nofollow" href="https://twitter.com/theastgroup">
+                                    <div class="pr-5 text-primary group-hover:text-white">
+                                        <div class="w-4">
+                                            <span class="">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="cyan" class="w-[20px] fill-current transition-all duration-300" style="height:20px">
+                                                    <path d="M19.167 2.5a9.083 9.083 0 0 1-2.617 1.275 3.733 3.733 0 0 0-6.55 2.5v.833a8.883 8.883 0 0 1-7.5-3.775s-3.333 7.5 4.167 10.834a9.7 9.7 0 0 1-5.834 1.666C8.333 20 17.5 15.833 17.5 6.25c0-.232-.023-.464-.067-.692A6.433 6.433 0 0 0 19.167 2.5Z"></path>
+                                                </svg>
+                                            </span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style="list-style-type: none;" class="block mb-3">
+                                <a class="flex group" target="_blank" style=" display:flex;" rel="nofollow" href="https://www.youtube.com/channel/UCy40JFO_GEMoXN5rPj_vhOQ">
+                                    <div class="pr-5 text-primary group-hover:text-white">
+                                        <div class="w-4">
+                                            <span class="flex group order-1" style="display:flex;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="cyan" viewBox="0 0 20 20" class="w-[20px] fill-current transition-all duration-300" style="height:20px;">
+                                                    <path d="m10.42 3.517-3.897.07c-1.262.025-2.527-.024-3.765.23C.876 4.199.743 6.064.603 7.628c-.192 2.2-.118 4.439.245 6.62.205 1.223 1.01 1.954 2.257 2.033 4.209.288 8.445.254 12.644.12.443-.013.89-.08 1.327-.157 2.158-.374 2.21-2.487 2.35-4.267.14-1.797.081-3.604-.185-5.389-.214-1.478-.624-2.717-2.351-2.837-2.165-.157-4.28-.283-6.45-.242 0 .009-.013.009-.02.009zM8.13 7.259c1.63.927 3.23 1.838 4.853 2.758-1.635.926-3.232 1.837-4.854 2.757V7.26z"></path>
+                                                </svg>
+                                            </span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col order-3 w-full lg:w-5/12 lg:pl-10 pt-1" style="display:flex; padding-left:200px; margin-top:50px;">
+                    <form class="">
+                        <label class="block mb-1 text-14">Subscribe for the latest updates from AST</label>
+                        <div class="flex mb-7 order-1" style="display:flex;" >
+                            <div class="w-3/4 pr-2">
+                                <label for="email" class="sr-only"></label>
+                                <input type="email" id="email" name="email" class="w-full text-black" placeholder="Email" style="height:40px; width:250px">
+                            </div>
+                            <div class="w-1/4">
+                                <button style="height:40px; width:100px;"  type="submit" class="w-full h-full px-2 border border-cyan text-cyan text-14  hover:text-white transition-all hover:bg-black duration-300">Subscribe</button>
+                            </div>
+                        </div>
+                    <div style="display:flex;">
+                        <label class="flex" style="display:flex; margin-top:20px;">
+                            <div class="mr-2 " >
+                                <input style="display:flex; " class="order-1" type="checkbox" name="marketing" required="">
+                                </div>
+                                <div class="text-11 order-3" style="font-size:11px; display:flex;">
+                                <p>I’m happy for AST to send me information regarding new products,<br /> news and events. For more information, read our <a class="text-primary underline mx-1" href="/privacy-policy">privacy policy</a></p>
+                                </div>
+                        </label>
+                    </div></form>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row justify-between" style="display:flex; font-size:13px; margin-left:18.5%; margin-top:20px; font-size:9px">
+                <div class="order-1 lg:order-1 text-10" style=";">Copyright © <!-- -->2023<!-- --> Applied Satellite Technology Ltd, Registered in England Company No: 2153172, VAT No: GB 720 1086 83</div>
+                <div class="order-3 lg:order-2 mb-4 lg:mb-0 text-12" style="margin-left:300px;">
+                    Website designed and built by 
+                    <a target="_blank" rel="nofollow" class="font-bold text-primary hover:text-soak underline" href="https://soak.co.uk">Soak Digital</a>
+                </div>
+            </div>
         </div>
     </footer>
+   
+    
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+
+
+    <style>
+      
+
+        .ASTLOGO {
+            height: 65px;
+        }
+
+        .contact {
+            background-color: orange;
+            color: white;
+            border: none;
+            right: 105px;
+            width: 100px;
+            height: 45px;
+            position: fixed;
+        }
+
+        .Login {
+            background-color: #12273b;
+            color: white;
+            border: none;
+            right: 5px;
+            width: 100px;
+            height: 45px;
+            position: fixed;
+        }
+
+        .topHeading {
+            height: 45px;
+            width: 100%;
+            position: fixed;
+            background-color: #12273b;
+            padding-top: 0px;
+            z-index: 1;
+        }
+
+        .navbar {
+            position: fixed;
+            margin-top: 45px;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .TopFooter {
+            background-color: #00a9b9;
+            position: center;
+            height: 2%;
+            
+        }
+
+        .TopContent {
+            padding-left: 25%;
+            padding-bottom: 3%;
+            padding-top: 1%;
+        }
+
+        .button {
+            background-color: orange;
+            border: solid orange;
+            height: 35px;
+            padding-right: 5px;
+            display: inline-block;
+            color: white;
+        }
+
+        .selection {
+            height: 35px;
+        }
+
+        .img {
+            padding-top: 5%;
+            min-height: 45px;
+            max-height: 7%;
+            max-width: 14%;
+        }
+
+        .body {
+            padding-bottom: 25px;
+        }
+
+
+        .footer {
+            overflow:hidden;
+            position: absolute;
+            width: 100%;
+            left:0;
+            bottom: 0;
+        }
+
+        .image3{
+            height:50px;
+        }
+        .svg{
+            height:50px;
+        }
+        .table{
+            content: "";
+            clear: both;
+            width: 100%;
+            overflow:hidden;
+        }
+        row{
+            display: flex;
+            padding: 25px;
+            width:fit-content;
+        }
+        /*  Sorting out the   */
+        .group1{
+            float: left;
+            width: fit-content;
+            padding-top: 40px;
+            padding-left:20%;
+            padding-bottom: 40px;
+        }
+        .group2{
+            float: left;
+            width: fit-content;
+            padding-top: 50px;
+            display: flex;
+        }
+        .links{
+            color:white;
+            text-decoration:none;
+            list-style-type: none;
+        }
+    </style>
+
 </body>
 </html>
