@@ -2,7 +2,99 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@*This div below is where the overlay switches go*@
+<div>
+    <h1>Overlay Switches!</h1>
 </div>
+
+@*MAP AND CONTROLS DIV*@
+<div id="map" style="position: relative;">
+</div>
+
+@*Divs below this contain other content such as the P2P Mode*@
+<div>
+    <h1>Point to Point Mode!</h1>
+</div>
+
+@*Script to for map functionality not zooming or zoom controls*@
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const mapElement = document.getElementById('map');
+        const svgPath = '/world-map.svg';
+
+        function loadSvgFile() {
+            fetch(svgPath)
+                .then(response => response.text())
+                .then(svgText => {
+                    mapElement.innerHTML = svgText;
+                    addEventListeners();
+                    initializePanZoom();
+                })
+                .catch(error => console.error('Failed to load SVG file:', error));
+        }
+
+        // Add a click event listener to SVG paths
+        document.querySelectorAll('path').forEach(function (path) {
+            // Initialize the clicked state for each path
+            path.isClicked = false;
+
+            path.addEventListener('click', function () {
+                // Toggle the clicked state for the current path
+                this.isClicked = !this.isClicked;
+
+                // Set the fill color based on the clicked state
+                if (this.isClicked) {
+                    this.setAttribute('fill', '#8A9A5B');
+                } else {
+                    this.setAttribute('fill', '');
+                }
+            });
+        });
+
+        function addEventListeners() {
+            const paths = mapElement.querySelectorAll('path');
+            paths.forEach(path => {
+                path.addEventListener('click', function () {
+                    resetCountryColors();
+                    this.setAttribute('fill', '#8A9A5B');
+                });
+            });
+        }
+
+        function resetCountryColors() {
+            const paths = mapElement.querySelectorAll('path');
+            paths.forEach(path => {
+                path.removeAttribute('fill');
+            });
+        }
+
+        function initializePanZoom() {
+            const mapSvg = mapElement.querySelector('svg');
+            const panZoomMap = svgPanZoom(mapSvg, {
+                zoomEnabled: true,
+                controlIconsEnabled: true,
+                fit: true,
+                center: true,
+            });
+
+            function resizePanZoomContainer() {
+                const mapRect = mapSvg.getBoundingClientRect();
+                panZoomMap.resize(mapRect.width, mapRect.height);
+            }
+
+            // Resize the container initially
+            resizePanZoomContainer();
+
+            // Resize the container when the window is resized
+            window.addEventListener('resize', resizePanZoomContainer);
+        }
+
+        loadSvgFile();
+    });
+</script>
+
+@*Script for zoom controls (scroll wheel zooming and zoom in and out button)*@
+<script src="/js/svg-pan-zoom.min.js"></script>
+
+@*CSS Loaded here to override default zoom buttons positions*@
+<link rel="stylesheet" href="/css/site.css">
