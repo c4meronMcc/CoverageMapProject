@@ -54,19 +54,19 @@
         function addEventListeners() {
             const paths = mapElement.querySelectorAll('path');
             paths.forEach(path => {
-                path.addEventListener('click', function () {
-                    resetCountryColors();
-                    this.setAttribute('fill', '#8A9A5B');
-                });
-            });
+              path.addEventListener('click', function () {
+                resetCountryColors();
+                this.classList.add('clicked');
+              });
+          });
         }
 
-        function resetCountryColors() {
-            const paths = mapElement.querySelectorAll('path');
-            paths.forEach(path => {
-                path.removeAttribute('fill');
+          function resetCountryColors() {
+            const clickedPaths = mapElement.querySelectorAll('.clicked');
+            clickedPaths.forEach(path => {
+              path.classList.remove('clicked');
             });
-        }
+          }
 
         function initializePanZoom() {
             const mapSvg = mapElement.querySelector('svg');

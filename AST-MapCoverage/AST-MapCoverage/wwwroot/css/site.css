@@ -33,3 +33,8 @@ body {
     right: 10px;
     z-index: 9999;
 }
+
+.clicked {
+    fill: #8A9A5B;
+    stroke: black;
+}
