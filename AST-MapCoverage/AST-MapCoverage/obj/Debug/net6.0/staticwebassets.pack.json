@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\AST-MapCoverage.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\AST logo.png",
+      "PackagePath": "staticwebassets\\AST logo.png"
+    },
+    {
+      "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\GlobalVSATcoverage.png",
+      "PackagePath": "staticwebassets\\GlobalVSATcoverage.png"
+    },
+    {
+      "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\Inmarsat global Xpress.png",
+      "PackagePath": "staticwebassets\\Inmarsat global Xpress.png"
+    },
+    {
+      "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\IridiumMap.png",
+      "PackagePath": "staticwebassets\\IridiumMap.png"
+    },
+    {
+      "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\containerShip2.png",
+      "PackagePath": "staticwebassets\\containerShip2.png"
+    },
+    {
       "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -13,8 +33,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\js\\clickablemap.min.js",
+      "PackagePath": "staticwebassets\\js\\clickablemap.min.js"
+    },
+    {
       "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\js\\svg-pan-zoom.min.js",
+      "PackagePath": "staticwebassets\\js\\svg-pan-zoom.min.js"
     },
     {
       "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -243,6 +271,10 @@
     {
       "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\world-map.svg",
+      "PackagePath": "staticwebassets\\world-map.svg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AST-MapCoverage.Microsoft.AspNetCore.StaticWebAssets.props",
