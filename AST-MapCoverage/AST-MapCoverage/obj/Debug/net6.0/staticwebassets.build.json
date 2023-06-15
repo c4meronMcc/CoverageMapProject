@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XXX6e9QN8LZkudxc5UC5CLMjk864qy9UUmfpybZ4jyw=",
+  "Hash": "NsEOq/+Ah9gAtfqu45+1xOy6WeaFpIrkt51bTotNGmk=",
   "Source": "AST-MapCoverage",
   "BasePath": "_content/AST-MapCoverage",
   "Mode": "Default",
@@ -1190,6 +1190,23 @@
       "OriginalItemSpec": "wwwroot\\IridiumMap.png"
     },
     {
+      "Identity": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\js\\overlaySwitches.min.js",
+      "SourceId": "AST-MapCoverage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
+      "BasePath": "_content/AST-MapCoverage",
+      "RelativePath": "js/overlaySwitches.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\overlaySwitches.min.js"
+    },
+    {
       "Identity": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\js\\site.js",
       "SourceId": "AST-MapCoverage",
       "SourceType": "Discovered",
@@ -1205,6 +1222,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\js\\svg-pan-zoom.min.js",
+      "SourceId": "AST-MapCoverage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
+      "BasePath": "_content/AST-MapCoverage",
+      "RelativePath": "js/svg-pan-zoom.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\svg-pan-zoom.min.js"
     },
     {
       "Identity": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -2174,23 +2208,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\svg-pan-zoom.min.js",
-      "SourceId": "AST-MapCoverage",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
-      "BasePath": "_content/AST-MapCoverage",
-      "RelativePath": "svg-pan-zoom.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\svg-pan-zoom.min.js"
     },
     {
       "Identity": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\world-map.svg",

@@ -33,8 +33,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\js\\overlaySwitches.min.js",
+      "PackagePath": "staticwebassets\\js\\overlaySwitches.min.js"
+    },
+    {
       "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\js\\svg-pan-zoom.min.js",
+      "PackagePath": "staticwebassets\\js\\svg-pan-zoom.min.js"
     },
     {
       "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -263,10 +271,6 @@
     {
       "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\svg-pan-zoom.min.js",
-      "PackagePath": "staticwebassets\\svg-pan-zoom.min.js"
     },
     {
       "Id": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\world-map.svg",
