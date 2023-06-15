@@ -30,7 +30,7 @@
 @*Information and coverage areas for country selected*@
 <section>
     <div class="CountryInfo" style="" >
-        <div>
+        <div >
             <h2 style="text-align:left; padding-bottom:25px; padding-left:20%; color: #94B0DF; font-size:50px;">Country</h2>
             <div>
                 <p class="TxtBlue" style="padding-left:20%; padding-right:20%; font-size:18px;">If you're looking for coverage over *name* then you have *number* options! Your options for land coverage over *name* are *coverage services*.</p>
@@ -43,16 +43,17 @@
             <div>
                 <div style ="text-align:center; padding-top:25px;">
                     @*Iridiumn map*@
-                    <img style="height:525px;  margin-left:auto; margin-right:auto; width: 50%; display:block;" id="coverageMap" src="~/IridiumMap.png" />
+                    <img style="height:525px;  margin-left:auto; margin-right:auto; width: 50%; display:block; " id="coverageMap" src="~/IridiumMap.png" onclick='changeImage("ir")' />
                 </div>
                 
                 <div style="text-align:center">
                     @*Global VSAT Coverage Map*@
                     
-                    <img style="height:500px; margin-left:24%;  width: 50%; display:block;" id="coverageMap2" src="~/GlobalVSATcoverage.png"/>
+                    <img style="height:500px; margin-left:24%;  width: 50%; display:block; " id="coverageMap2" src="~/GlobalVSATcoverage.png"/>
                 </div>
                 <div>
-
+                    @*Third image Inmarsat global Xpress*@
+                    <img style="height:500px; margin-left:24%;  width: 50%; display:block; " id="coverageMap3" src="~/Inmarsat global Xpress.png" />
                 </div>
             </div>
         </div>
@@ -64,7 +65,9 @@
     .CountryInfo{
         
         color: white;
-        
+        padding-top: 80px;  
+        font-family: sans-serif;
+        font-style:normal;
     }
 
     .headerImg{
@@ -75,6 +78,7 @@
     .topDiv{
         background-color: #182335;
         height:300px;
+        border-bottom:solid 3px orange;
     }
 </style>
 
@@ -153,10 +157,11 @@
 
         loadSvgFile();
 
-        function changeImage(){
-            var img = document.getElementById("coverageMap");
-            img.src="global VSAT coverage.svg"
-            return false;
+        function changeImage(a){
+            if (document.getElementById("coverageMap").click()
+            {
+                document.getElementById("coverageMap").src.a.;
+            }
         }
        
     });
