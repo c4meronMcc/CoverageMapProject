@@ -16,17 +16,43 @@
     <div>
         <h1>Overlay Switches!</h1>
     </div>
+@* This div below is where the overlay switches go *@
+<div>
+    <h1>Overlay Switches!</h1>
+</div>
+<div id="map-container">
 
     @*MAP AND CONTROLS DIV*@
     <div id="map" style="position: relative; margin-left:12%; margin-top:5%; border: solid 3px orange;">
     </div>
+    @* MAP AND CONTROLS DIV *@
+    <div id="map" style="position: relative;"></div>
+    <div id="sidebar">
 
+        <div class="sidebar-box">
+            <h2>Coverage Providers</h2>
+
+            <div class="large-switch">
+                <input type="checkbox" id="covProvMaster">
+                <label for="covProvMaster" class="slider"></label>
+            </div>
+
+            <div class="switch">
+                <label for="insatGX">Inmarsat Global Xpress</label>
+                <input type="checkbox" id="insatGX">
+                <label class="slider"></label>
+            </div>
     @*Divs below this contain other content such as the P2P Mode*@
     <div>
         <h1>Point to Point Mode!</h1>
     </div>
 </div>
 
+            <div class="switch">
+                <label for="thuraya">Thuraya</label>
+                <input type="checkbox" id="thuraya">
+                <label class="slider"></label>
+            </div>
 @*Information and coverage areas for country selected*@
 <section>
     <div class="CountryInfo" style="" >
@@ -88,73 +114,31 @@
         const mapElement = document.getElementById('map');
         const svgPath = '/world-map.svg';
 
-        function loadSvgFile() {
-            fetch(svgPath)
-                .then(response => response.text())
-                .then(svgText => {
-                    mapElement.innerHTML = svgText;
-                    addEventListeners();
-                    initializePanZoom();
-                })
-                .catch(error => console.error('Failed to load SVG file:', error));
-        }
+            <div class="switch">
+                <label for="insatFB">Inmarsat FleetBroadband</label>
+                <input type="checkbox" id="insatFB">
+                <label class="slider"></label>
+            </div>
 
-        // Add a click event listener to SVG paths
-        document.querySelectorAll('path').forEach(function (path) {
-            // Initialize the clicked state for each path
-            path.isClicked = false;
+            <div class="switch">
+                <label for="astGVsat">AST Global VSAT</label>
+                <input type="checkbox" id="astGVsat">
+                <label class="slider"></label>
+            </div>
 
-            path.addEventListener('click', function () {
-                // Toggle the clicked state for the current path
-                this.isClicked = !this.isClicked;
+            <div class="switch">
+                <label for="iridium">Iridium</label>
+                <input type="checkbox" id="iridium">
+                <label class="slider"></label>
+            </div>
+        </div>
+    </div>
+</div>
 
-                // Set the fill color based on the clicked state
-                if (this.isClicked) {
-                    this.setAttribute('fill', '#8A9A5B');
-                } else {
-                    this.setAttribute('fill', '');
-                }
-            });
-        });
-
-        function addEventListeners() {
-            const paths = mapElement.querySelectorAll('path');
-            paths.forEach(path => {
-                path.addEventListener('click', function () {
-                    resetCountryColors();
-                    this.setAttribute('fill', '#8A9A5B');
-                });
-            });
-        }
-
-        function resetCountryColors() {
-            const paths = mapElement.querySelectorAll('path');
-            paths.forEach(path => {
-                path.removeAttribute('fill');
-            });
-        }
-
-        function initializePanZoom() {
-            const mapSvg = mapElement.querySelector('svg');
-            const panZoomMap = svgPanZoom(mapSvg, {
-                zoomEnabled: true,
-                controlIconsEnabled: true,
-                fit: true,
-                center: true,
-            });
-
-            function resizePanZoomContainer() {
-                const mapRect = mapSvg.getBoundingClientRect();
-                panZoomMap.resize(mapRect.width, mapRect.height);
-            }
-
-            // Resize the container initially
-            resizePanZoomContainer();
-
-            // Resize the container when the window is resized
-            window.addEventListener('resize', resizePanZoomContainer);
-        }
-
+@* Divs below this contain other content such as the P2P Mode *@
+<div>
+    <h1>Point to Point Mode!</h1>
+</div>
         loadSvgFile();
 
         function changeImage(a){
@@ -168,8 +152,10 @@
   
 </script>
 
-@*Script for zoom controls (scroll wheel zooming and zoom in and out button)*@
+@* Script for map functionality (including zooming and pan) *@
+<script src="/js/overlaySwitches.min.js"></script>
+<script src="/js/clickablemap.min.js"></script>
 <script src="/js/svg-pan-zoom.min.js"></script>
 
-@*CSS Loaded here to override default zoom buttons positions*@
+@* CSS Loaded here to override default zoom buttons positions *@
 <link rel="stylesheet" href="/css/site.css">
