@@ -11,14 +11,14 @@
     </div>
     <img class="order-3" style=" overflow:visible; height:300px; display:flex; margin-left:10%; margin-top:70px; border: solid 3px orange; " src="~/containerShip2.png"/>
 </div>
-<div style="background-color:whitesmoke;">
+<div id="map-container" style="background-color:whitesmoke;">
     @*This div below is where the overlay switches go*@
     <div>
         <h1>Overlay Switches!</h1>
     </div>
 
     @*MAP AND CONTROLS DIV*@
-    <div id="map" style="position: relative; margin-left:12%; margin-top:5%; border: solid 3px orange;">
+    <div id="map" style="position: relative; border: solid 3px orange;">
     </div>
 
     @*Divs below this contain other content such as the P2P Mode*@
@@ -82,10 +82,6 @@
     }
 </style>
 
-@*Script to for map functionality not zooming or zoom controls*@
-<script>
-
-</script>
 
 @*Script for zoom controls (scroll wheel zooming and zoom in and out button)*@
 <script src="/js/svg-pan-zoom.min.js"></script>

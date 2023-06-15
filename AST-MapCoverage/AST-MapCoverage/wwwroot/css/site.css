@@ -18,11 +18,19 @@ body {
     padding: 0;
 }
 
+.clicked{
+    fill:#8A9A5b;
+    stroke:black;
+}
+
+#map-container{
+    display:flex;
+}
+
 #map {
-    position: relative;
-    width: 75%;
-    height: 100vh;
-    padding: 10px;
+    width: 65%;
+    height: 90vh;
+    padding: 25px;
 }
 
 .svg-pan-zoom-in,
