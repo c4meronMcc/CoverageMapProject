@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj": {}
+    "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj": {
+    "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj",
+        "projectUniqueName": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj",
         "projectName": "AST-MapCoverage",
-        "projectPath": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj",
-        "packagesPath": "C:\\Users\\cameron.chaplin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cameron.chaplin\\source\\repos\\MapCoverage_repository\\project\\AST-MapCoverage\\AST-MapCoverage\\obj\\",
+        "projectPath": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\AST-MapCoverage.csproj",
+        "packagesPath": "C:\\Users\\joshua.lindsay\\.nuget\\packages\\",
+        "outputPath": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cameron.chaplin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joshua.lindsay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
