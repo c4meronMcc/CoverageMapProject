@@ -18,30 +18,6 @@ body {
     padding: 0;
 }
 
-.clicked {
-    fill: #8A9A5B;
-    stroke: black;
-}
-
-#map-container {
-    display: flex;
-}
-
-#map {
-    width: 65%;
-    height: 90vh;
-    padding: 25px;
-}
-
-#insatFBOverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-}
-
 #sidebar {
     width: 35%;
     background-color: #d3d3d3;
