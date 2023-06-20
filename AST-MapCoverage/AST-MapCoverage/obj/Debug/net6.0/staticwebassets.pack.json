@@ -9,8 +9,20 @@
       "PackagePath": "staticwebassets\\AST logo.png"
     },
     {
-      "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\css\\map.css",
-      "PackagePath": "staticwebassets\\css\\map.css"
+      "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\GlobalVSATcoverage.png",
+      "PackagePath": "staticwebassets\\GlobalVSATcoverage.png"
+    },
+    {
+      "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\Inmarsat global Xpress.png",
+      "PackagePath": "staticwebassets\\Inmarsat global Xpress.png"
+    },
+    {
+      "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\IridiumMap.png",
+      "PackagePath": "staticwebassets\\IridiumMap.png"
+    },
+    {
+      "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\containerShip2.png",
+      "PackagePath": "staticwebassets\\containerShip2.png"
     },
     {
       "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\css\\site.css",

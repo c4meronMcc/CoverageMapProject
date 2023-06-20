@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qgs2HY9ZP17UTXyAXTsyMcCt74muBzzAyJ5Gwl/lqf8=",
+  "Hash": "ela1mK6OnvgHZ1HKhDHTlCbOQ8cug7Odf0IMX//7d9k=",
   "Source": "AST-MapCoverage",
   "BasePath": "_content/AST-MapCoverage",
   "Mode": "Default",
@@ -68,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\AST logo.png"
     },
     {
-      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\css\\map.css",
+      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\containerShip2.png",
       "SourceId": "AST-MapCoverage",
       "SourceType": "Discovered",
       "ContentRoot": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
       "BasePath": "_content/AST-MapCoverage",
-      "RelativePath": "css/map.css",
+      "RelativePath": "containerShip2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\map.css"
+      "OriginalItemSpec": "wwwroot\\containerShip2.png"
     },
     {
       "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\css\\site.css",
@@ -117,6 +117,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\GlobalVSATcoverage.png",
+      "SourceId": "AST-MapCoverage",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
+      "BasePath": "_content/AST-MapCoverage",
+      "RelativePath": "GlobalVSATcoverage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GlobalVSATcoverage.png"
+    },
+    {
+      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\Inmarsat global Xpress.png",
+      "SourceId": "AST-MapCoverage",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
+      "BasePath": "_content/AST-MapCoverage",
+      "RelativePath": "Inmarsat global Xpress.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Inmarsat global Xpress.png"
+    },
+    {
+      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\IridiumMap.png",
+      "SourceId": "AST-MapCoverage",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
+      "BasePath": "_content/AST-MapCoverage",
+      "RelativePath": "IridiumMap.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\IridiumMap.png"
     },
     {
       "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\js\\overlaySwitches.min.js",

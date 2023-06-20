@@ -122,6 +122,19 @@ body {
         background-color: #8A9A5B;
     }
 
+.svg-pan-zoom-in,
+.svg-pan-zoom-reset-pan-zoom,
+.svg-pan-zoom-out {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.clicked {
+    fill: #8A9A5B;
+    stroke: black;
+}
         .large-switch input[type="checkbox"]:checked + .slider:before {
             transform: translateX(235px);
         }
