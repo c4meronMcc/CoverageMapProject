@@ -1,0 +1,15 @@
+﻿.clicked {
+    fill: #8A9A5B;
+    stroke: black;
+}
+
+#map-container {
+    display: flex;
+    position: relative;
+}
+
+#map {
+    width: 65%;
+    height: 90vh;
+    padding: 25px;
+}
