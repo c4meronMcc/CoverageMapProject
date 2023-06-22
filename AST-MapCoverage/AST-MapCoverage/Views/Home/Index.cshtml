@@ -11,16 +11,15 @@
     </div>
     <img class="order-3" style=" overflow:visible; height:300px; display:flex; margin-left:10%; margin-top:70px; border: solid 3px orange; " src="~/containerShip2.png"/>
 </div>
-
+<div style="z-index:-1; height: 70px; background-color: whitesmoke;"> 
+    
+</div>
  
 @* This div below is where the overlay switches go *@
-<div>
-    <h1>Overlay Switches!</h1>
-</div>
 <div id="map-container">
 
     @*MAP AND CONTROLS DIV*@
-    <div id="map" style="position: relative;  margin-top:5%; border: solid 3px orange;">
+    <div id="map" style="position: relative;  margin-top:5%; border: solid 3px orange; width: 100%;">
     </div>
     @* MAP AND CONTROLS DIV *@
     <div id="map"></div>
@@ -39,20 +38,36 @@
                 <input type="checkbox" id="insatGX">
                 <label class="slider"></label>
             </div>
-    @*Divs below this contain other content such as the P2P Mode*@
-    
-        </div>
 
             <div class="switch">
                 <label for="thuraya">Thuraya</label>
                 <input type="checkbox" id="thuraya">
                 <label class="slider"></label>
             </div>
+
+            <div class="switch">
+                <label for="insatFB">Inmarsat FleetBroadband</label>
+                <input type="checkbox" id="insatFB">
+                <label class="slider"></label>
+            </div>
+
+            <div class="switch">
+                <label for="astGVsat">AST Global VSAT</label>
+                <input type="checkbox" id="astGVsat">
+                <label class="slider"></label>
+            </div>
+
+            <div class="switch">
+                <label for="iridium">Iridium</label>
+                <input type="checkbox" id="iridium">
+                <label class="slider"></label>
+            </div>
+        </div> 
     </div>
 </div>
 @*Information and coverage areas for country selected*@
 <section>
-    <div class="CountryInfo" style="" >
+    <div class="CountryInfo" style="background-color:#182335" >
         <div >
             <h2 style="text-align:left; padding-bottom:25px; padding-left:20%; color: #94B0DF; font-size:50px;">Country</h2>
             <div>
@@ -85,8 +100,7 @@
 
 @*CSS for classes on Page*@
 <style>
-    .CountryInfo{
-        
+    .CountryInfo{  
         color: white;
         padding-top: 80px;  
         font-family: sans-serif;
@@ -103,30 +117,10 @@
         height:300px;
         border-bottom:solid 3px orange;
     }
-</style>
-
-            <div class="switch">
-                <label for="insatFB">Inmarsat FleetBroadband</label>
-                <input type="checkbox" id="insatFB">
-                <label class="slider"></label>
-            </div>
-
-            <div class="switch">
-                <label for="astGVsat">AST Global VSAT</label>
-                <input type="checkbox" id="astGVsat">
-                <label class="slider"></label>
-            </div>
-
-            <div class="switch">
-                <label for="iridium">Iridium</label>
-                <input type="checkbox" id="iridium">
-                <label class="slider"></label>
-            </div>
+</style>        
         </div>
     </div>
 </div>
-
-@* Divs below this contain other content such as the P2P Mode *@
 
 @* Script for map functionality (including zooming and pan) *@
 <script src="/js/overlaySwitches.min.js"></script>

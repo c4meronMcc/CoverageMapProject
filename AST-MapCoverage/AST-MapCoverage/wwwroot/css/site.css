@@ -22,12 +22,14 @@ body {
     width: 35%;
     background-color: #d3d3d3;
     padding: 10px;
+    margin-top: 5%;
 }
 
 .sidebar-box {
     background-color: #f2f2f2;
     padding: 20px;
     margin-bottom: 20px;
+    height: 100%;
 }
 
     .sidebar-box h2 {
@@ -122,19 +124,7 @@ body {
         background-color: #8A9A5B;
     }
 
-.svg-pan-zoom-in,
-.svg-pan-zoom-reset-pan-zoom,
-.svg-pan-zoom-out {
-    position: fixed;
-    top: 100px;
-    right: 10px;
-    z-index: 9999;
-}
 
-.clicked {
-    fill: #8A9A5B;
-    stroke: black;
-}
         .large-switch input[type="checkbox"]:checked + .slider:before {
             transform: translateX(235px);
         }

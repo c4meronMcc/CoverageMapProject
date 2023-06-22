@@ -1,15 +1,36 @@
-﻿.clicked {
+﻿.svg-pan-zoom-in,
+.svg-pan-zoom-reset-pan-zoom,
+.svg-pan-zoom-out {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.clicked {
     fill: #8A9A5B;
     stroke: black;
 }
 
+.sea, .ocean {
+    fill: blue;
+    cursor: pointer;
+}
+
+.blue {
+    fill: blue;
+    /* Add any other desired styles */
+}
+
 #map-container {
+    width: 100%;
     display: flex;
     position: relative;
+    background-color: whitesmoke;
+    padding-bottom: 5%;
 }
 
 #map {
-    width: 65%;
-    height: 90vh;
-    padding: 25px;
+    background-color: #b2beb5;
+    height: 80vh;
 }
