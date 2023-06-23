@@ -17,12 +17,28 @@
       "PackagePath": "staticwebassets\\Inmarsat global Xpress.png"
     },
     {
+      "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\InmarsatFleetBroadband.png",
+      "PackagePath": "staticwebassets\\InmarsatFleetBroadband.png"
+    },
+    {
       "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\IridiumMap.png",
       "PackagePath": "staticwebassets\\IridiumMap.png"
     },
     {
+      "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\SVGMapOverlays2.svg",
+      "PackagePath": "staticwebassets\\SVGMapOverlays2.svg"
+    },
+    {
+      "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\Thuraya.png",
+      "PackagePath": "staticwebassets\\Thuraya.png"
+    },
+    {
       "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\containerShip2.png",
       "PackagePath": "staticwebassets\\containerShip2.png"
+    },
+    {
+      "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\css\\map.css",
+      "PackagePath": "staticwebassets\\css\\map.css"
     },
     {
       "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\css\\site.css",
@@ -271,10 +287,6 @@
     {
       "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\world-map.svg",
-      "PackagePath": "staticwebassets\\world-map.svg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AST-MapCoverage.Microsoft.AspNetCore.StaticWebAssets.props",
