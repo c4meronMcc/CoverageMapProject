@@ -1,18 +1,48 @@
-﻿.clicked {
+﻿.svg-pan-zoom-in,
+.svg-pan-zoom-reset-pan-zoom,
+.svg-pan-zoom-out {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    z-index: 9999;
+    color: black !important;
+    background-color: white !important;
+}
+
+.clicked {
     fill: #8A9A5B;
     stroke: black;
 }
 
+.sea, .ocean {
+    fill: #6082B6;
+    cursor: pointer;
+}
+
+.blue {
+    fill: blue;
+    /* Add any other desired styles */
+}
+
 #map-container {
-    width:100%;
-    display:flex;
+    width: 100%;
+    display: flex;
     position: relative;
+    background-color: whitesmoke;
     padding-bottom: 5%;
-    background-color:whitesmoke;
 }
 
 #map {
-    height: 90vh;
-    width:74%;
-    background-color:#B2BEB5
+    background-color: #b2beb5;
+    height: 80vh;
+}
+
+.pin-icon{
+    width:20px;
+    height:20px;
+    background-image: url(../pinIcon.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    pointer-events: none;
 }

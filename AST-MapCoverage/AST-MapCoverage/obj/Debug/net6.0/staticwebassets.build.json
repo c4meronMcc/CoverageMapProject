@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ela1mK6OnvgHZ1HKhDHTlCbOQ8cug7Odf0IMX//7d9k=",
+  "Hash": "V1KZEgVGCYigF2MC1bASoq8UQyOYvcEPy2HF+1AvAMk=",
   "Source": "AST-MapCoverage",
   "BasePath": "_content/AST-MapCoverage",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\containerShip2.png"
     },
     {
+      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\css\\map.css",
+      "SourceId": "AST-MapCoverage",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
+      "BasePath": "_content/AST-MapCoverage",
+      "RelativePath": "css/map.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\map.css"
+    },
+    {
       "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\css\\site.css",
       "SourceId": "AST-MapCoverage",
       "SourceType": "Discovered",
@@ -151,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Inmarsat global Xpress.png"
+    },
+    {
+      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\InmarsatFleetBroadband.png",
+      "SourceId": "AST-MapCoverage",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
+      "BasePath": "_content/AST-MapCoverage",
+      "RelativePath": "InmarsatFleetBroadband.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\InmarsatFleetBroadband.png"
     },
     {
       "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\IridiumMap.png",
@@ -1190,12 +1224,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\world-map.svg",
+      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\SVGMapOverlays2.svg",
       "SourceId": "AST-MapCoverage",
       "SourceType": "Discovered",
       "ContentRoot": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
       "BasePath": "_content/AST-MapCoverage",
-      "RelativePath": "world-map.svg",
+      "RelativePath": "SVGMapOverlays2.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,7 +1238,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\world-map.svg"
+      "OriginalItemSpec": "wwwroot\\SVGMapOverlays2.svg"
+    },
+    {
+      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\Thuraya.png",
+      "SourceId": "AST-MapCoverage",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
+      "BasePath": "_content/AST-MapCoverage",
+      "RelativePath": "Thuraya.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Thuraya.png"
     },
     {
       "Identity": "C:\\Users\\joshua.lindsay\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.13\\staticwebassets\\V5\\css\\site.css",

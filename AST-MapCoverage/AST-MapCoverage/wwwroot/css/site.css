@@ -19,7 +19,7 @@ body {
 }
 
 #sidebar {
-    height:90vh;
+    height:80vh;
     width:36%;
     background-color: #d3d3d3;
     padding:0.7%;
@@ -105,7 +105,7 @@ body {
         top: 0;
         left: 0;
         height: 100%;
-        width: 100%;
+        width: 30vh;
         background-color: #CC5500;
         border-radius: 3vh;
         transition: all 0.3s ease-in-out;
@@ -128,19 +128,13 @@ body {
         background-color: #8A9A5B;
     }
 
-.svg-pan-zoom-in,
-.svg-pan-zoom-reset-pan-zoom,
-.svg-pan-zoom-out {
-    position: fixed;
-    top: 10vh;
-    right: 1vh;
-    z-index: 9999;
-}
 
-.clicked {
-    fill: #8A9A5B;
-    stroke: black;
-}
         .large-switch input[type="checkbox"]:checked + .slider:before {
-            transform: translateX(13.5vh)
+            transform: translateX(23.5vh);
         }
+
+#svg-pan-zoom-reset-pan-zoom {
+    /* Specify the desired color or styles to prevent color change */
+    color: black !important;
+    background-color: white !important;
+}
