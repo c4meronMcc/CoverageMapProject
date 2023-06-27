@@ -5,29 +5,29 @@
 @*image at the top of the page*@
 
 <div class="topDiv order-0" style="display:flex;">
-    <div style="color:#94B0DF;  padding-top: 80px; padding-left: 400px; font-family: sans-serif; font-style:normal;">
-        <h2 style="font-size:40px; " class="" >Coverage Maps</h2>
-        <p style="color:white; font-size:20px;"> Find the right provider for you</p>
+    <div style="color:#94B0DF;  padding-top: 10vh; padding-left: 40vh; font-family: sans-serif; font-style:normal;">
+        <h2 style="font-size:3vw; " class="" >Coverage Maps</h2>
+        <p style="color:white; font-size:1.2vw;"> Find the right provider for you</p>
     </div>
-    <img class="order-3" style=" overflow:visible; height:300px; display:flex; margin-left:10%; margin-top:70px; border: solid 3px orange; " src="~/containerShip2.png"/>
+    <img class="order-3" style=" overflow:visible; height:31vh;  display:flex; margin-left:10%; margin-top:4%; border: solid 0.5vh orange; " src="~/containerShip2.png"/>
 </div>
 
- 
-@* This div below is where the overlay switches go *@
-<div>
-    <h1>Overlay Switches!</h1>
+<div style="z-index:-1; height: 8vh; background-color:whitesmoke;">
 </div>
-<div id="map-container">
+
+@* This div below is where the overlay switches go *@
+
+<div id="map-container" " >
 
     @*MAP AND CONTROLS DIV*@
-    <div id="map" style="position: relative;  margin-top:5%; border: solid 3px orange;">
+    <div id="map" style="position: relative;  width:100%; margin-top:5%; border: solid 0.5vh orange;">
     </div>
     @* MAP AND CONTROLS DIV *@
-    <div id="map"></div>
+    
     <div id="sidebar">
 
         <div class="sidebar-box">
-            <h2>Coverage Providers</h2>
+            <h2 style="font-size: 3vw;">Coverage Providers</h2>
 
             <div class="large-switch">
                 <input type="checkbox" id="covProvMaster">
@@ -38,73 +38,7 @@
                 <label for="insatGX">Inmarsat Global Xpress</label>
                 <input type="checkbox" id="insatGX">
                 <label class="slider"></label>
-            </div>
-    @*Divs below this contain other content such as the P2P Mode*@
-    
-        </div>
-
-            <div class="switch">
-                <label for="thuraya">Thuraya</label>
-                <input type="checkbox" id="thuraya">
-                <label class="slider"></label>
-            </div>
-    </div>
-</div>
-@*Information and coverage areas for country selected*@
-<section>
-    <div class="CountryInfo" style="" >
-        <div >
-            <h2 style="text-align:left; padding-bottom:25px; padding-left:20%; color: #94B0DF; font-size:50px;">Country</h2>
-            <div>
-                <p class="TxtBlue" style="padding-left:20%; padding-right:20%; font-size:18px;">If you're looking for coverage over *name* then you have *number* options! Your options for land coverage over *name* are *coverage services*.</p>
-            </div>
-            <br />
-            <br />
-            <div>
-                <p class="TxtBlue" style="padding-left:20%; padding-right:20%; font-weight:bold; font-size:18px;">This is what the different coverage areas look like for *name* click on a coverage area if you want to see infomation about them.</p>
-            </div>
-            <div>
-                <div style ="text-align:center; padding-top:25px;">
-                    @*Iridiumn map*@
-                    <img style="height:525px;  margin-left:auto; margin-right:auto; width: 50%; display:block; " id="coverageMap" src="~/IridiumMap.png" onclick='changeImage("ir")' />
-                </div>
-                
-                <div style="text-align:center">
-                    @*Global VSAT Coverage Map*@
-                    
-                    <img style="height:500px; margin-left:24%;  width: 50%; display:block; " id="coverageMap2" src="~/GlobalVSATcoverage.png"/>
-                </div>
-                <div>
-                    @*Third image Inmarsat global Xpress*@
-                    <img style="height:500px; margin-left:24%;  width: 50%; display:block; " id="coverageMap3" src="~/Inmarsat global Xpress.png" />
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-@*CSS for classes on Page*@
-<style>
-    .CountryInfo{
-        
-        color: white;
-        padding-top: 80px;  
-        font-family: sans-serif;
-        font-style:normal;
-    }
-
-    .headerImg{
-        height:500px;
-        width: 100%;
-    }
-    
-    .topDiv{
-        background-color: #182335;
-        height:300px;
-        border-bottom:solid 3px orange;
-    }
-</style>
-
+            </div>      
             <div class="switch">
                 <label for="insatFB">Inmarsat FleetBroadband</label>
                 <input type="checkbox" id="insatFB">
@@ -122,9 +56,94 @@
                 <input type="checkbox" id="iridium">
                 <label class="slider"></label>
             </div>
+        
+
+        <div class="switch">
+            <label for="thuraya">Thuraya</label>
+            <input type="checkbox" id="thuraya">
+            <label class="slider"></label>
         </div>
     </div>
 </div>
+ </div>      
+    @*Divs below this contain other content such as the P2P Mode*@
+    
+    
+@*Information and coverage areas for country selected*@
+<section >
+    <div class="CountryInfo" id="CountryInfo" style="display:none;">
+        <div >
+            <h2 id="CountryHeader" style="text-align:left; padding-bottom:2vh; padding-left:20%; color: #94B0DF; font-size:3vw;">Country</h2>
+            <div>
+                <p id="Text1" class="TxtBlue" style="padding-left:20%; padding-right:20%; font-size:1vw;">If you're looking for coverage over *name* then you have *number* options! Your options for land coverage over *name* are *coverage services*.</p>
+            </div>
+            <br />
+            <br />
+            <div>
+                <p id="Text2" class="TxtBlue" style="padding-left:20%; padding-right:20%; font-weight:bold; font-size:1vw;">This is what the different coverage areas look like for *name* click on a coverage area if you want to see infomation about them.</p>
+            </div>
+            <div>
+                <div style ="text-align:center; padding-top:2.5vh;">
+                    @*Iridiumn map*@
+                    <a href="https://www.theastgroup.com/en/services/i-1">
+                    <img style="height:30%;  margin-left:auto; margin-right:auto; width: 50%; display:block; " id="Iridium" src="/IridiumMap.png"  />
+                    </a>
+                </div>
+                <div style="text-align:center">
+                    @*Global VSAT Coverage Map*@
+                    <a href="https://www.theastgroup.com/services/ast-global-vsat">
+                    <img style="height:30%; margin-left:24%;  width: 50%; display:block; " id="GlobalVSATcoverage" src="~/GlobalVSATcoverage.png"/>
+                    </a>
+                </div>
+                <div>
+                    @*Inmarsat global Xpress*@
+                    <a href="https://www.theastgroup.com/en/services/inmarsat-satellite-services">
+                    <img style="height:30%; margin-left:24%;  width: 50%; display:block; " id="InmarsatGlobalXpress" src="~/Inmarsat global Xpress.png" />
+                    </a>
+                </div>
+                <div>
+                    @*Thuraya*@
+                    <a href="https://www.theastgroup.com/en/services/thuraya-satellite-services">
+                    <img style="height:30%; margin-left:24%;  width: 50%; display:block; " id="Thuraya" src="/Thuraya.png" />
+                    </a>
+                </div>
+                <div>
+                    @*Inmarsat Fleet Broadband*@
+                    <a href="https://www.theastgroup.com/en/services/inmarsat-satellite-services" style="height:fit-content; width:fit-content;">
+                    <img style="height:30%; margin-left:24%;  width: 50%; display:block; " id="InmarsatFleetBroadband" src="/InmarsatFleetBroadband.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+@*CSS for classes on Page*@
+<style>
+    .CountryInfo{
+        
+        color: white;
+        padding-top: 8vh;  
+        font-family: sans-serif;
+        font-style:normal;
+    }
+
+    .headerImg{
+        height:20vh;
+        width: 100%;
+    }
+    
+    .topDiv{
+        background-color: #182335;
+        height:31vh;
+        border-bottom:solid 0.5vh orange;
+        
+    }
+</style>
+
+
 
 @* Divs below this contain other content such as the P2P Mode *@
 

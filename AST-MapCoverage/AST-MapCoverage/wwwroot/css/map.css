@@ -4,12 +4,15 @@
 }
 
 #map-container {
-    display: flex;
+    width:100%;
+    display:flex;
     position: relative;
+    padding-bottom: 5%;
+    background-color:whitesmoke;
 }
 
 #map {
-    width: 65%;
     height: 90vh;
-    padding: 25px;
+    width:74%;
+    background-color:#B2BEB5
 }
