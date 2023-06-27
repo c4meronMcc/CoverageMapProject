@@ -5,6 +5,8 @@
     top: 100px;
     right: 10px;
     z-index: 9999;
+    color: black !important;
+    background-color: white !important;
 }
 
 .clicked {
@@ -33,4 +35,14 @@
 #map {
     background-color: #b2beb5;
     height: 80vh;
+}
+
+.pin-icon{
+    width:20px;
+    height:20px;
+    background-image: url(../pinIcon.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    pointer-events: none;
 }

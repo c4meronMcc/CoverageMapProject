@@ -128,3 +128,9 @@ body {
         .large-switch input[type="checkbox"]:checked + .slider:before {
             transform: translateX(235px);
         }
+
+#svg-pan-zoom-reset-pan-zoom {
+    /* Specify the desired color or styles to prevent color change */
+    color: black !important;
+    background-color: white !important;
+}
