@@ -38,9 +38,9 @@
 }
 
 .pin-icon{
-    width:20px;
-    height:20px;
-    background-image: url(../pinIcon.jpg);
+    width:2px;
+    height:2px;
+    background-image: url(../mapPinIcon.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
