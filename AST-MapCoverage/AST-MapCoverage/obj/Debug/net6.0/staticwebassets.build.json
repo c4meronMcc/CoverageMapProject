@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V1KZEgVGCYigF2MC1bASoq8UQyOYvcEPy2HF+1AvAMk=",
+  "Hash": "XwUtMqgruunBbf61CR0uDRTG1l2m9uDAuYDg/NxmCyE=",
   "Source": "AST-MapCoverage",
   "BasePath": "_content/AST-MapCoverage",
   "Mode": "Default",
@@ -1222,6 +1222,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\mapPinIcon.jpg",
+      "SourceId": "AST-MapCoverage",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
+      "BasePath": "_content/AST-MapCoverage",
+      "RelativePath": "mapPinIcon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mapPinIcon.jpg"
+    },
+    {
+      "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\pinIcon.jpg",
+      "SourceId": "AST-MapCoverage",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\",
+      "BasePath": "_content/AST-MapCoverage",
+      "RelativePath": "pinIcon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pinIcon.jpg"
     },
     {
       "Identity": "\\\\ast\\user$\\joshua.lindsay\\My Documents\\Visual Studio 2022\\MapCoverageProject\\AST-MapCoverage\\AST-MapCoverage\\wwwroot\\SVGMapOverlays2.svg",

@@ -1,9 +1,12 @@
 Todo: 
 - A colour reset button to refresh the map.
 - A pin icon to appear at the users mouse click location. 
+- Mouse changes appearance when hovering over clickable elements such as elemetns of the map (The countries, the seas/oceans)
 
 Errors need fixing:
 - Reset button and (+/-) button change colours.
+- Bug where when you drag the map and let go of the mouse a country is clicked but the country just isn't coloured.
+- The user is able to click on the coverage overlay lines.
 
 Fixed: 
 - The issue with the background changing color when you click a sea area that has not yet been defined with image mapping.
