@@ -3,8 +3,7 @@ Todo:
 - A pin icon to appear at the users mouse click location. 
 
 Errors need fixing:
-- Luxembourg is coloured in as a sea area not a land area. Needs to be filled in as land grey colour.
-
+- Reset button and (+/-) button change colours.
 
 Fixed: 
 - The issue with the background changing color when you click a sea area that has not yet been defined with image mapping.
@@ -12,3 +11,4 @@ Fixed:
 - Israel and West bank did not have the correct SVG code and so when clicked the borders expanded but there was no fill property so didnt not fill as green.
 - Sea/Land didn't turn grey again when the opposite of one is clicked.
 - When user moves the map a country/sea area was also clicked as the mouse was released.
+- Luxembourg is coloured in as a sea area not a land area. Needs to be filled in as land grey colour.
