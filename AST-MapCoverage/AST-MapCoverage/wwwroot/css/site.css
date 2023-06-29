@@ -42,8 +42,9 @@ body {
 .switch {
     display: flex;
     align-items: center;
-    margin-bottom: 2vh;
-    font-size: 0.8vw;
+    margin-bottom: 8vh;
+    font-size: 1vw;
+    font-weight:bold;
 }
 
     .switch label {
@@ -92,7 +93,7 @@ body {
     display: inline-block;
     width: 20vh;
     height: 6vh;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
     cursor: pointer;
 }
 
