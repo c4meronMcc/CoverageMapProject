@@ -37,12 +37,19 @@
     height: 80vh;
 }
 
-.pin-icon{
-    width:2px;
-    height:2px;
-    background-image: url(../mapPinIcon.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+.mapPinIcon {
     position: absolute;
-    pointer-events: none;
+    transform: translate(-50%, -100%);
+    pointer-events: none; /* Ensures the pin icon doesn't block mouse events on the map */
+}
+
+.pin-icon {
+    position: absolute;
+    width: 20px; /* Adjust the width and height as needed */
+    height: 20px;
+    background-color: red; /* Adjust the background color and icon image as needed */
+    background-image: url('path/to/pin-icon-image.png');
+    background-size: cover;
+    border-radius: 50%;
+    pointer-events: none; /* Ensures the pin icon doesn't block mouse events on the map */
 }
