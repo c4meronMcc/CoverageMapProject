@@ -47,8 +47,8 @@
     position: absolute;
     width: 20px; /* Adjust the width and height as needed */
     height: 20px;
-    background-color: red; /* Adjust the background color and icon image as needed */
-    background-image: url('path/to/pin-icon-image.png');
+    background-color: blue; /* Adjust the background color and icon image as needed */
+    background-image: url(/redMapPin.svg);
     background-size: cover;
     border-radius: 50%;
     pointer-events: none; /* Ensures the pin icon doesn't block mouse events on the map */
