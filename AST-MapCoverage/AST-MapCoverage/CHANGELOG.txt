@@ -3,8 +3,7 @@ Todo:
 - A pin icon to appear at the users mouse click location. 
 
 Errors need fixing:
-- Reset button and (+/-) button change colours.
-- The user is able to click on the coverage overlay lines.
+- Users can click on a conutry or sea and it registers mouse click but doesnt change fill color.
 
 Fixed/Changed: 
 - The issue with the background changing color when you click a sea area that has not yet been defined with image mapping.
@@ -15,3 +14,5 @@ Fixed/Changed:
 - Luxembourg is coloured in as a sea area not a land area. Needs to be filled in as land grey colour.
 - [29-06-23,13:15] Bug where when you drag the map and let go of the mouse a country is clicked but the country just isn't coloured.
 - [29-06-23,13:42] Mouse changes appearance when hovering over clickable elements such as elemetns of the map (The countries, the seas/oceans) 
+- [04-07-23,11:05] Reset button and (+/-) button change colours.
+- [04-07-23,11:05] The user is able to click on the coverage overlay lines.
